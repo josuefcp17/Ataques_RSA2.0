@@ -1,4 +1,6 @@
 #Josue Francisco Carpio Peña
+#Marcia Luigina 
+#Joaquin Muñoz
 
 import random
 from hashlib import sha1
