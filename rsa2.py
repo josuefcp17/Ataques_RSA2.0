@@ -211,7 +211,7 @@ def segundo_ataque():
 #---------------ataque 3-------------
 def tercer_ataque():
     k = 32
-    P, S = RSA_KEY_GENERATOR(k)
+    P, Q= RSA_KEY_GENERATOR(k)
     _, n = P
     M =b'Hello World!'
 
@@ -220,7 +220,7 @@ def tercer_ataque():
     m = int(h.hexdigest(), 16)
     m %= n
 
-    senal = cifrado(m, S)
+    senal = cifrado(m, Q)
     u = cifrado(senal, P)
 
     
