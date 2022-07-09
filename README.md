@@ -31,4 +31,6 @@ Lo que nos pide es validar las firmas digitales y que utilicemos la FUNCION HASH
 (m)=mensaje
 Primero lo que debemos de hacer es generar dos claves rsa(P y Q) y se le asigna a HASH despues de esto se usa RSA para que podamos cifrar el mensaje y este despues volver a descifrarlo
 
+ #Puntos extra 
+ Tambien este esta aplicado en la ultima para del codigo
  
